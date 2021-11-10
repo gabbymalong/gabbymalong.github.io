@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Magazine Website</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Concert+One&family=Dancing+Script&family=Handlee&family=Pacifico&family=Satisfy&display=swap" rel="stylesheet">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: rgb(208, 255, 180);
+                font-family: 'Rubik', sans-serif;
+            }
+
+            .warpper{
+                margin: 0 auto;
+                width: 1440px;
+            }
+
+            h1{
+                text-align: center;
+                font-size: 35px;
+            }
+
+            .quote{
+                text-align: center;
+                font-size: 35px;
+                margin-bottom: 15px;
+                color:rgb(0, 0, 0);
+                font-family: 'Handlee';
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 10px;
+                padding-top: 0;
+                padding-bottom: 0;
+                overflow: hidden;
+                background-color: rgb(255, 255, 255);
+                font-family: 'Rubik', sans-serif; font-size: 20px;
+            }
+
+            li{
+                float: left;
+            }
+
+            li a{
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 15px 12px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: rgb(163, 252, 112);
+                color: black;
+            }
+
+            .nav-right{
+                float: right;
+            }
+
+            #flower{
+                background-color: rgb(255, 255, 255);
+                padding: 7px;
+                text-align: center;
+            }
+
+            .blossom{
+                border-radius: 20%;
+            }
+
+            .pink{
+                background-color: salmon;
+                width: 500px;
+                height: 3px;
+            }
+
+            .cherblos{
+                color: rgb(255, 67, 99);
+                font-family: 'Kaushan Script', cursive;
+                font-size: 45px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            .cherry-desc{
+                margin-left: 360px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                padding: 10px;
+                width: 600px;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            hr{
+                background-color: rgb(95, 199, 25);
+                width: 1345px;
+                height: 3px;
+                margin-top: 10px;
+            }
+
+            #environment{
+                background-color: white;
+            }
+
+            .donation{
+                background-color:rgb(255, 255, 255);
+                font-size: 40px;
+                margin-bottom: 0;
+                padding: 0;
+                text-align: center;
+            }
+
+            #content{
+                background-color: white;
+            }
+
+            .plants{
+                color: rgb(99, 85, 6);
+                font-size: 30px;
+                padding-top: 30px;
+                margin-top: 0;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            .tree{
+                margin-left: 495px;
+                margin-right: 20px;
+                margin-top: 10px;
+                padding: 10px;
+                border-radius: 20px;
+                background-color: rgb(122, 75, 3);
+            }
+
+            .save-earth{
+                width: 700px;
+                font-size: 20px;
+                padding: 5px;
+                margin-top: 15px;
+                margin-left: 330px;
+                text-align: center;
+            }
+
+            .divider{
+                background-color: rgb(101, 209, 47);
+                width: 1345px;
+                height: 3px;
+            }
+
+            .oce{
+                font-size: 30px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                color: navy;
+                text-align: center;
+            }
+
+            .sea{
+                margin-left: 495px;
+                margin-right: 20px;
+                margin-top: 10px;
+                padding: 10px;
+                border-radius: 20px;
+                background-color: rgb(29, 29, 177)
+            }
+
+            .save-sea{
+                width: 700px;
+                font-size: 20px;
+                padding: 5px;
+                margin-top: 15px;
+                margin-left: 330px;
+                text-align: center;
+            }
+
+            .divider-pt2{
+                background-color: rgb(101, 209, 47);
+                width: 1345px;
+                height: 3px;
+            }
+
+            .cycle{
+                font-size: 30px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                color: rgb(255, 208, 0);
+                text-align: center;
+            }
+
+            .reuse{
+                height: 250px;
+                margin-left: 495px;
+                margin-right: 20px;
+                margin-top: 10px;
+                padding: 10px;
+                border-radius: 20px;
+                background-color: gold;
+            }
+
+            .save-trash{
+                width: 700px;
+                font-size: 20px;
+                padding: 5px;
+                margin-top: 15px;
+                margin-left: 330px;
+                text-align: center;
+            }
+
+            .copyright{
+                font-size: 15px;
+                text-align: left;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div id=header>
+            <h1> #Nature </h1>
+        </div>
+
+        <div id=nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="nature.html">Nature</a></li>
+                <li><a href="food.html">Food</a></li>
+
+                <div class=nav-right>
+                    <li><a href="author.html">About the Author</a></li>
+                </div>
+                
+            </ul>
+        </div>
+
+        <div id="main">
+            <h1 class="quote"> "Nature gives me a certain feeling of joy and tranquility." </h1>
+        </div>
+
+        <div id="flower">
+            <h2 class="flow"> FLOWER OF THE DAY </h2>
+            <img class="blossom" src="cherry.jpg" width="600" alt="cherry blossom">
+                <hr class="pink">
+            <h3 class="cherblos"> Cherry Blossoms </h3>
+            <p class="cherry-desc">
+                Cherry blossoms are a symbolic flower of the spring, a time of renewal, and the fleeting nature of life. Their life is very short. After their beauty peaks around two weeks, the blossoms start to fall.
+                These flowers are beautiful and pleasing to see. They have a romantic feeling to it, which is a reason why it is one of my favorite flowers.
+            </p>
+        </div>
+
+        <div id="environment">
+                    <hr>
+                <h2 class="donation"> Do You Want To Save The Earth? </h2>
+        </div>
+
+        <div id="content">
+            <div id="trees">
+                <h3 class="plants"> Plants and Environment </h3>
+                <a href="https://teamtrees.org/"><img class="tree" src="tree.jpg" width="350" alt="tree"></a>
+                <p class="save-earth">
+                    One big thing we can do for this Earth is to plant trees.
+                    We've already cut down over a million trees, why not try and replace those we've taken down.
+                    It'll help clean the environment and a tree can even be a source of food!
+                    One such content creator, Mr.Beast, started a movement called Team Trees. They have planted over 20 million trees around the world!
+                    1 dollar is equal to 1 tree planted so go on ahead and donate if you can!
+                </p>
+            </div>
+
+                <hr class="divider">
+
+            <div id="seas">
+                <h3 class="oce"> Seas and Oceans </h3>
+                <a href="https://teamseas.org/"><img class="sea" src="ocean.jpg" width="350" alt="ocean"></a>
+                <p class="save-sea">
+                    Our oceans are a wonder to see.
+                    There are millions of species of sea animals in our seas, and if we do not keep it clean, they may die out.
+                    We must not throw our waste into the ocean and possibly participate in beach clean-ups. 
+                    Mr.Beast, together with Mark Rober, have started another movement called Team Seas. Over 13 million pounds of trash have already been cleaned up. 
+                    As before, for every 1 dollar, a pound of trash is removed. Let us protect our waters!
+                </p>
+            </div>
+
+                <hr class="divider-pt2">
+
+            <div id="reusing">
+                <h3 class="cycle"> Trash and Things </h3>
+                <a href="https://recyclingpartnership.org/communitiesforrecycling/"><img class="reuse" src="reuse.jpeg" width="350" alt="recycle"></a>
+                <p class="save-trash">
+                    We humans produce roughly 4.40 pounds of trash every day. What better way to use the trash than to recycle them!
+                    We can recycle bottles to turn them into plant pots, or newspapers into wrapping paper. Get creative if you want to use them for arts and crafts!
+                    The more we reuse, the more we save!
+                </p>
+            </div>
+                <hr>
+        </div>
+
+        <div id="footer">
+            <a href="https://teamtrees.org/"><h4> TeamTrees </h4></a>
+            <a href="https://teamseas.org/"><h4> TeamSeas </h4></a>
+            <a href="https://recyclingpartnership.org/communitiesforrecycling/"><h4> Recycle </h4></a>
+            <p class="copyright"> Copyright &copy 2021 All The Nice Things</p>
+        </div>
+    </body>
+</html>

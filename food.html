@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Magazine Website</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Concert+One&family=Dancing+Script&family=Handlee&family=Pacifico&family=Satisfy&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ceviche+One&family=Handlee&family=Mochiy+Pop+P+One&family=Play&family=Satisfy&display=swap" rel="stylesheet">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: rgb(255, 219, 166);
+                font-family: 'Rubik', sans-serif;
+            }
+
+            .warpper{
+                margin: 0 auto;
+                width: 1440px;
+            }
+
+            h1{
+                text-align: center;
+                font-size: 35px;
+            }
+
+            .quote{
+                text-align: center;
+                font-size: 35px;
+                margin-bottom: 15px;
+                color:rgb(0, 0, 0);
+                font-family: 'Handlee';
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 10px;
+                padding-top: 0;
+                padding-bottom: 0;
+                overflow: hidden;
+                background-color: rgb(255, 255, 255);
+                font-family: 'Rubik', sans-serif; font-size: 20px;
+            }
+
+            li{
+                float: left;
+            }
+
+            li a{
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 15px 12px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: rgb(252, 160, 106);
+                color: black;
+            }
+
+            .nav-right{
+                float: right;
+            }
+
+            #food{
+                background-color: white;
+            }
+
+            .foodie{
+                padding-top: 20px;
+                text-align: center;
+            }
+
+            .bulalo{
+                height: 425px;
+                margin-left: 365px;
+                border-radius: 20%;
+            }
+
+            .buldivide{
+                background-color: rgb(236, 147, 14);
+                width: 530px;
+                height: 3px;
+            }
+
+            .foodbul{
+                font-size: 70px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                color:rgb(212, 127, 0);
+                text-align: center;
+                font-family: 'Ceviche One';
+            }
+
+            .bulalo-desc{
+                margin-left: 310px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                margin-top: 5px;
+                padding: 10px;
+                width: 700px;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .fooday{
+                background-color:rgb(255, 255, 255);
+                font-size: 50px;
+                margin-bottom: 0;
+                margin-top: 20px;
+                padding-top: 20px;
+                text-align: center;
+                color: red;
+            }
+
+            #fav-foods-pt2{
+                background-color: white;
+            }
+
+            .charli{
+                padding: 30px;
+                padding-bottom: 10px;
+                margin-top: 0;
+                margin-bottom: 10px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .chan{
+                background-color: yellow;
+                padding: 10px;
+                margin-left: 440px;
+                margin-top: 5px;
+            }
+
+            .charli-desc{
+                width: 700px;
+                font-size: 20px;
+                padding: 5px;
+                margin-top: 15px;
+                margin-left: 330px;
+                text-align: center;
+            }
+
+            .chonnie{
+                padding: 30px;
+                padding-bottom: 10px;
+                margin-top: 0;
+                margin-bottom: 10px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .manok{
+                background-color: rgb(219, 143, 0);
+                padding: 10px;
+                margin-left: 440px;
+                margin-top: 5px;
+            }
+
+            .manok-desc{
+                width: 700px;
+                font-size: 20px;
+                padding: 5px;
+                margin-top: 15px;
+                margin-left: 330px;
+                text-align: center;
+            }
+
+            .rv{
+                padding: 30px;
+                padding-bottom: 10px;
+                margin-top: 0;
+                margin-bottom: 10px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .cake{
+                background-color: rgb(211, 39, 9);
+                padding: 10px;
+                margin-left: 440px;
+                margin-top: 5px;
+            }
+
+            .cake-desc{
+                width: 700px;
+                font-size: 20px;
+                padding: 5px;
+                margin-top: 15px;
+                padding-bottom: 20px;
+                margin-left: 330px;
+                text-align: center;
+            }
+
+            #others{
+                background-color: white;
+            }
+
+            .recipes{
+                font-size: 40px;
+                padding-top: 10px;
+                margin-bottom: 10px;
+                margin-top: 0;
+                text-align: center;
+            }
+
+            .beef{
+                margin: 30px;
+                margin-top: 20px;
+                margin-left: 250px;
+            }
+
+            .sorbet{
+                margin-top: 20px;
+                margin: 30px;
+            }
+
+            .copyright{
+                font-size: 15px;
+                text-align: left;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div id=header>
+            <h1> #Food </h1>
+        </div>
+
+        <div id=nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="nature.html">Nature</a></li>
+                <li><a href="food.html">Food</a></li>
+
+                <div class=nav-right>
+                    <li><a href="author.html">About the Author</a></li>
+                </div>
+                
+            </ul>
+        </div>
+
+        <div id="content">
+            <h1 class="quote"> "We can never really go wrong with food." </h1>
+        </div>
+
+        <div id="food">
+            <h2 class="foodie"> DISH OF THE DAY </h2>
+            <a href="https://panlasangpinoy.com/bulalo-stewed-beef-shank/"><img class="bulalo" src="bulalo.jpg" width="600" alt="bulalo"></a>
+                <hr class="buldivide">
+            <h3 class="foodbul"> Bulalo </h3>
+            <p class="bulalo-desc"> This is Bulalo, one of the most beloved foods here in the Philippines. It's a bone-marrow and beef shank stew dish that includes corn and other types of leafy veggies.
+                It is similar to another Filipino dish called Nilaga, but meat chunks are used in Nilaga rather than bone-marrows and beef shanks. You can even slurp the bone marrow from the beef shank as that is how it's usually eaten.
+                It's very fun to eat and is quaranteed to satisfy your hunger!
+            </p>
+        </div>
+
+        <div id="fav-foods">
+            <h2 class="fooday"> Top Food Picks </h3>
+        </div>
+
+        <div id="fav-foods-pt2">
+            <div class="char">
+                <h3 class="charli"> Charlie Chan Pasta </h3>
+                <a href="https://www.food.com/recipe/yellow-cabs-charlie-chan-chicken-pasta-313290"><img class="chan" src="charlichan.jpg" width="450" alt="charlie chan"></a>
+                <p class="charli-desc"> Charlie Chan Chicken Pasta is a dish from Yellow Cab. It is a spicy, somewhat sweet noodle dish combined with chicken, mushrooms, onions and nuts. It goes perfectly well with pizza that Yellow Cab also serves.
+                    I have eaten this pasta a lot of times now and it will always be my favorite. If you ever stop by and eat at a Yellow Cab, try it out!
+                </p>
+            </div>
+
+            <div class="lech">
+                <h3 class="chonnie"> Lechong Manok </h3>
+                <a href="https://panlasangpinoy.com/lechon-manok-recipe/"><img class="manok" src="manok.jpg" width="450" alt="manok"></a>
+                <p class="manok-desc"> Lechong Manok is a dish that's usually served in karinderias or ihawans. It can also be found at Kenny Rogers Roasters. A big metal stick is speared into the chicken and is then put over fire.
+                    This will roast the chicken, of course. It kind of is like how Lechong Baboy is made, but this time it's a chicken. 
+
+                </p>
+            </div>
+
+            <div class="redv">
+                <h3 class="rv"> Red Velvet Cake </h3>
+                <a href="https://www.livewellbakeoften.com/the-best-red-velvet-cake/"><img class="cake" src="cake.jpg" width="450" alt="red velvet cake"></a>
+                <p class="cake-desc"> Red Velvet Cake is a delicious, sweet, and red cake. Red velvet may taste a little sour or salty at times since we do use buttermilk in the recipe. 
+                    It is soft, moist, buttery, and as I have said before, very tasty! Not to mention it is also the name of one of my favorite K-pop Groups. If you're looking to have fun baking and eating with your family, bake a red velvet cake!
+                </p>
+            </div>
+        </div>
+        
+        <div id="others">
+            <h2 class="recipes"> More Recipes </h2>
+            <a href="https://www.youtube.com/watch?v=Cyskqnp1j64"><img class="beef" src="ramsay.jpg" width="400" height="220" alt="wellington"></a>
+            <a href="https://www.youtube.com/watch?v=XMM722p_suo"><img class="sorbet" src="sorbet.jpg" width="400" height="220" alt="sorbet"></a>
+        </div>
+
+        <div id="footer">
+            <a href="https://www.food.com/recipe/yellow-cabs-charlie-chan-chicken-pasta-313290"><h4> Charlie Chan </h4></a>
+            <a href="https://panlasangpinoy.com/lechon-manok-recipe/"><h4> Lechong Manok </h4></a>
+            <a href="https://www.livewellbakeoften.com/the-best-red-velvet-cake/"><h4> Red Velvet Cake </h4></a>
+            <p class="copyright"> Copyright &copy 2021 All The Nice Things</p>
+        </div>
+        
+    </body>
+</html>
